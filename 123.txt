@@ -1,0 +1,25 @@
+Cho một ma trận nhị phân cỡ NxM chỉ bao gồm các số 0, 1. Hãy xác định vùng nhiều số 1 nhất trên ma trận, biết rằng các ô có chung cạnh được coi là cùng miền.
+
+Input Format
+
+Dòng đầu tiên là N và M tương ứng với số hàng, cột của ma trận. N dòng tiếp theo mỗi dòng có M số
+
+Constraints
+
+1<=N, M <= 500; Các phần tử trong ma trận có giá trị 0 hoặc 1.
+
+Output Format
+
+In ra diện tích miền có nhiều số 1 nhất
+
+Sample Input 0
+
+5 6
+0 1 0 1 0 1 
+0 0 0 1 1 0 
+0 1 1 0 1 1 
+0 1 1 0 0 0 
+0 0 0 0 0 0 
+Sample Output 0
+
+5
